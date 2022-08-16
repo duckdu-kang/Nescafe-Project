@@ -1,0 +1,315 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #fff;
+    padding: 40px 0;
+}
+div.hdrWrap::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header{}
+div.hdrWrap>.header>h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.nav{
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* 컨텐츠 메인 */
+div.main{
+    padding-top: 0;
+    padding-bottom: 160px;
+    position: relative;
+}
+div.main>video{
+    min-width: 100%; min-height: 100%;    
+}
+div.main>.texts{
+    width: 50%; height: 50%;
+    margin-left: auto;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+div.main>.texts>h1{
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 160px;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+/* div.main>.image{
+    height: 840px; background-color: #666;
+}
+div.main>.image>h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    color: #fff;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 300px 10px;
+} */
+/* 컨텐츠 머신 */
+div.content{}
+div.content>.header{
+    text-align: center;    
+}
+div.content>.header>h3{
+    font-size: 72px;
+    line-height: 80px;
+}
+div.content>.header>p{
+    font-family: 'Noto Sans KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+}
+div.content>.sc1{
+    text-align: center;
+}
+div.content>.section::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+div.content>.sc1>.article{
+    width: 340px;
+    float: left;
+    margin: 0px 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+div.content>.sc1>.mt20{
+    margin-top: 20px;
+}
+div.content>.sc1>.article>.image{
+    width: 160px;
+    height: 240px;
+    background-color: #999;
+    margin: 0 auto;
+}
+div.content>.sc1>.article>.i1{
+    background-image: url(../img/1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.content>.sc1>.article>.i2{
+    background-image: url(../img/2.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i3{
+    background-image: url(../img/3.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i4{
+    background-image: url(../img/4.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i5{
+    background-image: url(../img/5.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i6{
+    background-image: url(../img/6.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.texts{
+    text-align: center;
+    margin-top: 20px;   
+}
+div.content>.sc1>.article>.texts>h4{}
+div.content>.sc1>.article>.texts>h5{
+    font-size: 14px;
+}
+div.content>.sc1>.article>.texts>.btn{
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #f90;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+/* 컨텐츠 세일&이벤트 */
+div.sale{
+    background-image: url(../img/elegant-modern-kitchen-decor.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+}
+div.sale>.header{}
+div.sale>.header>h3{}
+div.sale>.header>p{}
+div.sale>.sc2{}
+div.sale>.sc2>.article{
+    width: 520px;
+    float: left;
+}
+div.sale>.sc2>.mt40{
+    margin-top: 40px;
+}
+div.sale>.sc2>.article>.image{
+    width: 250px;
+    height: 160px;
+    background-color: #999;
+    float: left;
+}
+div.sale>.sc2>.article>.i1{
+    background-image: url(../img/i1.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+div.sale>.sc2>.article>.i2{
+    background-image: url(../img/i2.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+div.sale>.sc2>.article>.i3{
+    background-image: url(../img/i3.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+div.sale>.sc2>.article>.i4{
+    background-image: url(../img/i4.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+div.sale>.sc2>.article>.texts{
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+}
+div.sale>.sc2>.article>.texts>h4{}
+div.sale>.sc2>.article>.texts>h5{
+    font-size: 14px;
+}
+div.sale>.sc2>.article>.texts>h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+}
+div.sale>.sc2>.article>.texts>.btn{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+/* 컨텐츠 네스카페 */
+div.nescafe{}
+div.nescafe>.header{}
+div.nescafe>.header>h3{}
+div.nescafe>.header>p{}
+div.nescafe>.section{}
+div.nescafe>.section>.article{
+    margin: 0 10px;
+}
+div.nescafe>.section>.article>.image{
+    width: 520px; height: 440px; background-color: #999;
+    float: left;
+    background-image: url(../img/nescafe-1525667_640.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+div.nescafe>.section>.article>.texts{
+    width: 520px; height: 280px;
+    float: left;
+    margin-left: 20px;
+}
+div.nescafe>.section>.article>.texts>ul{
+    padding: 80px 0;
+}
+div.nescafe>.section>.article>.texts>ul>li{
+    padding-bottom: 20px;
+}
+/* 컨텐츠 캡슐 */
+div.capsule{}
+div.capsule>.header{}
+div.capsule>.header>h3{}
+div.capsule>.header>p{}
+div.capsule>.section{}
+div.capsule>.section>.article{
+    float: left;
+    margin: 0 10px;
+}
+div.capsule>.section>.article>.image{
+    width: 250px; height: 240px; background-color: #999;
+}
+div.capsule>.section>.article>.i1{
+    background-image: url(../img/Q.JPG);
+    background-position: center;
+    background-size: cover; 
+}
+div.capsule>.section>.article>.i2{
+    background-image: url(../img/W.JPG);
+    background-position: center;
+    background-size: cover; 
+}
+div.capsule>.section>.article>.i3{
+    background-image: url(../img/E.JPG);
+    background-position: center;
+    background-size: cover; 
+}
+div.capsule>.section>.article>.i4{
+    background-image: url(../img/R.JPG);
+    background-position: center;
+    background-size: cover; 
+}
+div.capsule>.section>.article>h4{
+    text-align: center;
+    margin-top: 40px;
+}
+/* 푸터 */
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+div.ftrWrap>.footer>h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+div.ftrWrap>.footer>h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+div.ftrWrap>.footer>nav{
+    font-size: 40px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>nav>a{
+    margin-right: 60px;
+}

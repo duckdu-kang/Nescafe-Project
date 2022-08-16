@@ -1,0 +1,305 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #fff;
+    padding: 40px 0;
+}
+div.hdrWrap::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header{}
+div.hdrWrap>.header>h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.nav{
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* 프로모션 */
+div.promotion{    
+    background-image: url(../img/promo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.promotion>.header{
+    text-align: center;
+}
+div.promotion>.header>h3{
+    font-size: 72px;
+    line-height: 80px;
+}
+div.promotion>.section{
+    overflow: hidden;
+}
+div.promotion>.section>.article{
+    float: left;
+    margin: 0 80px;
+}
+div.promotion>.section>.article>.image{
+    width: 380px; height: 200px; background-color: #999;
+}
+div.promotion>.section>.article>.i1{
+    background-image: url(../img/pm1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.promotion>.section>.article>.i2{
+    background-image: url(../img/pm2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.promotion>.section>.article>.texts{
+    margin-top: 40px;
+    overflow: hidden;
+}
+div.promotion>.section>.article>.texts>h4{
+    color: #fff;
+}
+div.promotion>.section>.article>.texts>h5{
+    color: #fff;
+    font-size: 16px; font-weight: 700;
+    line-height: 40px;
+}
+div.promotion>.section>.article>.texts>.btn{
+    float: right;
+}
+div.promotion>.section>.article>.texts>.btn>button{
+    font-weight: 700;
+    width: 90px; height: 40px;
+    border: 0; border-radius: 10px;
+    cursor: pointer;
+}
+/* 레시피 */
+div.recipe{}
+div.recipe>.header{
+    text-align: center;
+}
+div.recipe>.header>h3{
+    font-size: 72px;
+    line-height: 80px;
+}
+div.recipe>.header>h5{
+    font-weight: 700;
+    font-size: 14px; line-height: 40px; color: #000;
+}
+div.recipe>.section{
+    overflow: hidden;
+}
+div.recipe>.section>.article{
+    float: left;
+    margin: 0 10px;
+}
+div.recipe>.section>.mt40{
+    margin-top: 40px;
+}
+div.recipe>.section>.article>.image{
+    width: 250px; height: 240px; background-color: #999; 
+}
+div.recipe>.section>.article>.i1{
+    background-image: url(../img/r1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i2{
+    background-image: url(../img/r2.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i3{
+    background-image: url(../img/r3.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i4{
+    background-image: url(../img/r4.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i5{
+    background-image: url(../img/r5.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i6{
+    background-image: url(../img/r6.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i7{
+    background-image: url(../img/r7.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i8{
+    background-image: url(../img/r8.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i9{
+    background-image: url(../img/r9.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i10{
+    background-image: url(../img/r10.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i11{
+    background-image: url(../img/r11.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>.i12{
+    background-image: url(../img/r12.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.recipe>.section>.article>h4{
+    font-size: 24px; line-height: 80px;
+    text-align: center; color: #fff;
+}
+div.recipe>.section>.article>.t1{
+    background-color: #7dab63;
+}
+div.recipe>.section>.article>.t2{
+    background-color: #fed676;
+}
+div.recipe>.section>.article>.t3{
+    background-color: #c27146;
+}
+div.recipe>.section>.article>.t4{
+    background-color: #75c1bd;
+}
+div.recipe>.section>.article>.t5{
+    background-color: #866b57;
+}
+div.recipe>.section>.article>.t6{
+    background-color: #e08ea4;
+}
+div.recipe>.section>.article>.t7{
+    background-color: #6bdad7;
+}
+div.recipe>.section>.article>.t8{
+    background-color: #9d5b4f;
+}
+div.recipe>.section>.article>.t9{
+    background-color: #502e27;
+}
+div.recipe>.section>.article>.t10{
+    background-color: #c37b1c;
+}
+div.recipe>.section>.article>.t11{
+    background-color: #e18b47;
+}
+div.recipe>.section>.article>.t12{
+    background-color: #75421b;
+}
+/* 홈카페 */
+div.homecf{}
+div.homecf>.header{
+    text-align: center;
+}
+div.homecf>.header>h3{
+    font-size: 72px; line-height: 80px;
+}
+div.homecf>.header>h5{
+    font-weight: 700;
+    font-size: 14px; line-height: 40px; color: #000;
+}
+div.homecf>.section{
+    overflow: hidden;    
+}
+div.homecf>.section>.article{
+    float: left;
+    margin: 0 50px;
+}
+div.homecf>.section>.article>.image{
+    width: 440px; height: 320px; background-color: #999;
+}
+div.homecf>.section>.article>.i1{
+    background-image: url(../img/homecf1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.homecf>.section>.article>.i2{
+    background-image: url(../img/homecf2.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.homecf>.section>.article>.texts{
+    width: 340px;
+    margin: 0 50px;
+    padding-top: 40px;
+}
+div.homecf>.section>.article>.texts>h4{
+    line-height: 80px; text-align: center;
+    padding: 0 70px;
+    border-radius: 20px;
+}
+div.homecf>.section>.article>.texts>p{
+    margin-top: 40px; height: 100px; overflow: hidden;
+}
+div.homecf>.section>.article>.t1>h4{
+    background-color: #fcdddb;
+}
+div.homecf>.section>.article>.t2>h4{
+    background-color: #abf2ee;
+}
+div.homecf>.section>.article>.btn{
+    margin-top: 20px;    
+}
+div.homecf>.section>.article>.btn>button{
+    font-weight: 700;
+    width: 90px; height: 40px;
+    border: 0; border-radius: 10px;
+    cursor: pointer;
+    margin-left: 175px;
+}
+div.homecf>.section>.article>.btn1>button{
+    background-color: #fcdddb;
+}
+div.homecf>.section>.article>.btn2>button{
+    background-color: #abf2ee;
+}
+/* 푸터 */
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+div.ftrWrap>.footer>h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+div.ftrWrap>.footer>h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+div.ftrWrap>.footer>nav{
+    font-size: 40px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>nav>a{
+    margin-right: 60px;
+}

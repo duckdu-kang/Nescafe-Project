@@ -1,0 +1,305 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #fff;
+    padding: 40px 0;
+}
+div.hdrWrap::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header{}
+div.hdrWrap>.header>h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.nav{
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* nav */
+div.nav{
+    padding: 0;
+    background-color: #c4c1b7;
+}
+div.nav>.section{
+    width: 100%; 
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+div.nav>.section>.article{
+    float: left;
+    margin: 0 40px;
+}
+div.nav>.section>.article>.image{
+    width: 80px; height: 80px; background-color: #999;
+    border-radius: 10px;
+}
+div.nav>.section>.article>.i1{
+    background-image: url(../img/m1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.nav>.section>.article>.i2{
+    background-image: url(../img/c1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.nav>.section>.article>h5{
+    font-size: 14px; color: #000; text-align: center;
+}
+/* 머신 */
+div.machine{}
+div.machine>.header{
+    text-align: center;
+}
+div.machine>.header>h3{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+}
+div.machine>.header>p{
+    font-family: 'Noto Sans KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px; color: #000;
+}
+div.machine>.section{
+    overflow: hidden;
+}
+div.machine>.section>.article{
+    margin: 0 10px;
+    float: left;
+}
+div.machine>.section>.mt20{
+    margin-top: 20px;
+}
+div.machine>.section>.article>.image{
+    width: 250px; height: 240px; background-color: #999;
+}
+div.machine>.section>.article>.i1{
+    background-image: url(../img/m1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i2{
+    background-image: url(../img/m2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i3{
+    background-image: url(../img/m3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i4{
+    background-image: url(../img/m4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i5{
+    background-image: url(../img/m5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i6{
+    background-image: url(../img/m6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i7{
+    background-image: url(../img/m7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i8{
+    background-image: url(../img/m8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i9{
+    background-image: url(../img/m9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i10{
+    background-image: url(../img/m10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i11{
+    background-image: url(../img/m11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.i12{
+    background-image: url(../img/m12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.machine>.section>.article>.texts{
+    margin-top: 20px;
+}
+div.machine>.section>.article>.texts>h4{
+    font-size: 24px;
+}
+div.machine>.section>.article>.texts>h5{
+    font-size: 12px;
+}
+/* 배너 */
+div.banner{
+    background-image: url(../img/sub2_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto; height: 320px;
+    overflow: hidden;
+}
+div.banner>p{
+    font-family: 'Noto Sans KR', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    text-align: left;
+    padding-top: 120px;
+    width: calc(100% / 2 - 20px);
+    float: right;
+}
+/* 캡슐 */
+div.capsule{}
+div.capsule>.header{
+    text-align: center;
+}
+div.capsule>.header>h3{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+}
+div.capsule>.header>p{
+    font-family: 'Noto Sans KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px; color: #000;
+}
+div.capsule>.section{
+    overflow: hidden;
+}
+div.capsule>.section>.article{
+    margin: 0 10px;
+    float: left;
+}
+div.capsule>.section>.mt20{
+    margin-top: 20px;
+}
+div.capsule>.section>.article>.image{
+    width: 250px; height: 240px; background-color: #999;
+}
+div.capsule>.section>.article>.i1{
+    background-image: url(../img/c1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i2{
+    background-image: url(../img/c2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i3{
+    background-image: url(../img/c3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i4{
+    background-image: url(../img/c4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i5{
+    background-image: url(../img/c5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i6{
+    background-image: url(../img/c6.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i7{
+    background-image: url(../img/c7.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i8{
+    background-image: url(../img/c8.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i9{
+    background-image: url(../img/c9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i10{
+    background-image: url(../img/c10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i11{
+    background-image: url(../img/c11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.i12{
+    background-image: url(../img/c12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capsule>.section>.article>.texts{
+    margin-top: 20px;
+}
+div.capsule>.section>.article>.texts>h4{
+    font-size: 24px;
+}
+div.capsule>.section>.article>.texts>h5{
+    font-size: 12px;
+}
+/* 푸터 */
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+div.ftrWrap>.footer>h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+div.ftrWrap>.footer>h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+div.ftrWrap>.footer>nav{
+    font-size: 40px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>nav>a{
+    margin-right: 60px;
+}

@@ -1,0 +1,188 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #fff;
+    padding: 40px 0;
+}
+div.hdrWrap::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header{}
+div.hdrWrap>.header>h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.nav{
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* 사용방법 */
+div.use{}
+div.use>.header{
+    text-align: center;
+}
+div.use>.header>h3{
+    font-size: 72px;
+    line-height: 80px;
+}
+div.use>.header>h5{
+    font-weight: 700;
+    font-size: 14px; line-height: 40px; color: #000;
+}
+div.use>.section{
+    overflow: hidden;
+}
+div.use>.section>.article{
+    float: left;
+    margin: 0 10px;
+}
+div.use>.section>.article>.image{
+    width: 340px;
+    height: 320px; background-color: #999;
+    cursor: pointer;
+}
+div.use>.section>.article>.i1{
+    background-image: url(../img/use1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.use>.section>.article>.i2{
+    background-image: url(../img/pm2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.use>.section>.article>.i3{
+    background-image: url(../img/use3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* 웰컴 */
+div.welcome{
+    background-image: url(../img/sub4_wel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.welcome>.section{}
+div.welcome>.section>.texts{    
+    width: 360px; 
+    margin: 0 auto;
+}
+div.welcome>.section>.texts>h3{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: #fff;
+}
+div.welcome>.section>.texts>p{
+    font-size: 14px; line-height: 40px; height: 80px;
+    margin-top: 40px; color: #fff;
+}
+div.welcome>.section>.btn{
+    margin-top: -40px;
+    margin-left: 630px;
+}
+div.welcome>.section>.btn>button{
+    width: 80px; height: 40px; border: 0;
+    border-radius: 20px;
+    background-color: #999;
+    color: #fff; cursor: pointer;
+}
+/* faqs */
+div.faqs{}
+div.faqs>.header{
+    text-align: center;
+}
+div.faqs>.header>h3{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+}
+div.faqs>.header>h5{
+    font-weight: 700;
+    font-size: 14px; line-height: 40px; color: #000;
+}
+div.faqs>.section{}
+div.faqs>.section>.article{    
+    margin: 0 10px;
+    overflow: hidden;
+}
+div.faqs>.section>.article>div{
+    float: left;
+}
+div.faqs>.section>.article>.image{
+    width: 250px; height: 360px; background-color: #999;
+}
+div.faqs>.section>.article>.i1{
+    background-image: url(../img/faq1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.faqs>.section>.article>.i2{
+    background-image: url(../img/faq2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.faqs>.section>.article>.i3{
+    background-image: url(../img/faq3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.faqs>.section>.article>.texts{
+    width: 790px; padding: 20px;
+}
+div.faqs>.section>.article>.texts::after{
+    display: block; content: ''; clear: both;
+}
+div.faqs>.section>.article>.texts>h4{
+    font-size: 14px; line-height: 40px;
+    margin-top: 20px; background-color: #dce8f0;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+div.faqs>.section>.article>.texts>h4>nav{
+    float: right; font-size: 16px;
+}
+div.faqs>.section>.mt80{
+    margin-top: 80px;
+}
+/* 푸터 */
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+div.ftrWrap>.footer>h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+div.ftrWrap>.footer>h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+div.ftrWrap>.footer>nav{
+    font-size: 40px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>nav>a{
+    margin-right: 60px;
+}

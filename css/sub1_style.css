@@ -1,0 +1,281 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #fff;
+    padding: 40px 0;
+}
+div.hdrWrap::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header{}
+div.hdrWrap>.header>h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.nav{
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* 컨텐츠 스토리 */
+div.story{
+    padding-top: 0px;
+}
+div.story>.section{
+    margin-top: 0px;
+    padding: 0 420px;
+    min-width: 100%; min-height: 100%;  
+    background-image: url(../img/double-bed-1215004_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+}
+div.story>.section>.article{
+    padding: 160px 0;
+}
+div.story>.section>.article::after{
+    display: block; content: ''; clear: both;
+}
+div.story>.section>.article>.image{
+    width: 520px; height: 480px; background-color: #999;
+    float: left;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background-image: url(../img/nescafe-1525667_640.jpg);
+    background-position: center;
+    background-size: cover;     
+}
+div.story>.section>.article>.texts{
+    width: 450px;
+    float: left;
+    padding: 40px 0;
+    margin-left: 80px;
+}
+div.story>.section>.article>.texts>h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000;
+}
+div.story>.section>.article>.texts>ul{
+    height: 200px;
+    padding: 20px 0;
+}
+div.story>.section>.article>.texts>ul>li{
+    margin-top: 20px;
+}
+div.story>.section>.article>.texts>.button{
+    width: 180px; height: 40px; background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+/* 컨텐츠 퀄리티 */
+div.quality{}
+div.quality>.header{}
+div.quality>.header>h3{}
+div.quality>.header>p{}
+div.quality>.section{}
+div.quality>.section>.article{
+    width: 340px; background-color: #ccc;
+    margin: 0 10px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s;
+}
+div.quality>.section>.article:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+div.quality>.section>.mt20{
+    margin-top: 20px;
+}
+div.quality>.section>.article>.image{
+    height: 240px;
+}
+div.quality>.section>.article>.i1{
+    background-image: url(../img/roasting-5298528_640.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px; 
+}
+div.quality>.section>.article>.i2{
+    background-image: url(../img/coffee-6632524_640.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px; 
+}
+div.quality>.section>.article>.i3{
+    background-image: url(../img/coffee-206142_640.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px; 
+}
+div.quality>.section>.article>.texts{
+    background-color: #c4c1b7;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+div.quality>.section>.article>.texts>h4{}
+div.quality>.section>.article>.texts>p{
+    height: 80px;
+    margin-top: 40px;
+}
+/* 배너 */
+div.banner{
+    background-color: #000;
+    padding: 80px 90px 80px 540px;
+    background-image: url(../img/pexels-nao-triponez-129207.jpg);
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
+div.banner::after{
+    display: block; content: ''; clear: both;
+}
+div.banner>.image{    
+}
+div.banner>.texts{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    width: 430px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+div.banner>.texts>h4{
+    
+}
+div.banner>.texts>p{
+    line-height: 40px;
+    margin-top: 40px;
+}
+/* 컨텐츠 베스트 */
+div.content{}
+div.content>.header{
+    text-align: center;    
+}
+div.content>.header>h3{
+    font-size: 72px;
+    line-height: 80px;
+}
+div.content>.header>p{
+    font-family: 'Noto Sans KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+}
+div.content>.sc1{
+    text-align: center;
+}
+div.content>.section::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+div.content>.sc1>.article{
+    width: 340px;
+    float: left;
+    margin: 0px 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+div.content>.sc1>.mt20{
+    margin-top: 20px;
+}
+div.content>.sc1>.article>.image{
+    width: 160px;
+    height: 240px;
+    background-color: #999;
+    margin: 0 auto;
+}
+div.content>.sc1>.article>.i1{
+    background-image: url(../img/1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.content>.sc1>.article>.i2{
+    background-image: url(../img/2.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i3{
+    background-image: url(../img/3.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i4{
+    background-image: url(../img/4.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i5{
+    background-image: url(../img/5.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.i6{
+    background-image: url(../img/6.JPG);
+    background-position: center;
+    background-size: cover;    
+}
+div.content>.sc1>.article>.texts{
+    text-align: center;
+    margin-top: 20px;   
+}
+div.content>.sc1>.article>.texts>h4{}
+div.content>.sc1>.article>.texts>h5{
+    font-size: 14px;
+}
+div.content>.sc1>.article>.texts>.btn{
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #f90;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+/* 푸터 */
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+div.ftrWrap>.footer>h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+div.ftrWrap>.footer>h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+div.ftrWrap>.footer>nav{
+    font-size: 40px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>nav>a{
+    margin-right: 60px;
+}
